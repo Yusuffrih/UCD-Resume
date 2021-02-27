@@ -42,6 +42,10 @@ h4 {
     color: #fafafa;
 }
 
+.list-inline {
+    display: inline-block;
+}
+
 /*------------------------------------------------Heading */
 
 
@@ -146,4 +150,20 @@ footer {
     background-color:#525252;
     color:#fafafa;
     min-height:120px;
+    
+}
+
+.cv-pdf i {
+    font-size:18px;
+    color:#fafafa;
+    text-align:center;
+    padding-left: 5px;
+    transition:all 0.35s ease-in-out;
+    -moz-transition:all 0.35s ease-in-out;
+    -webkit-transition:all 0.35s ease-in-out;
+    -o-transition:all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
 }
